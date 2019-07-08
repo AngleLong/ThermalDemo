@@ -7,7 +7,7 @@
 
 > 为什么选择阿里的hotfix作为热更新呢？网上有很多人对比过这个！所以我在这边也就不献丑了！我使用阿里hotfix的主要原因是在调研的时候看到如下的对比：
 
-![d69f6cccdc751a13215a8773ad648b57.png](evernotecid://15F9DE32-0B0C-4597-BAC2-265E889B9046/appyinxiangcom/25209387/ENResource/p11)
+![d69f6cccdc751a13215a8773ad648b57.png](https://github.com/AngleLong/ThermalDemo/tree/master/img/Snip20190707_14.png)
 
 ## 阿里热更新hotfix的集成
 
@@ -115,9 +115,9 @@ SophixManager.getInstance().queryAndLoadNewPatch();//查询是否有新的补丁
 
 按照上面的说明直接获取相应的Patch，这里有一点需要注意一下，就是那个高级里面有一个是否冷启动的选项，名字可能不对(理解就好)。这个选项注意一下，因为有的时候可能它无法判断到底时候冷启动还是其它启动！所以这个选择还是要慎重！如果你签名的时候使用了打包文件，那么在工具中也可以设置！
 
-![6f38be6c79a62342a6a93be73f8ee3be.png](evernotecid://15F9DE32-0B0C-4597-BAC2-265E889B9046/appyinxiangcom/25209387/ENResource/p15)
+![6f38be6c79a62342a6a93be73f8ee3be.png](https://github.com/AngleLong/ThermalDemo/tree/master/img/Snip20190707_6.png)
 
-![f1d1338f1ace0fc9fb88d71416f53d8b.png](evernotecid://15F9DE32-0B0C-4597-BAC2-265E889B9046/appyinxiangcom/25209387/ENResource/p16)
+![f1d1338f1ace0fc9fb88d71416f53d8b.png](https://github.com/AngleLong/ThermalDemo/tree/master/img/Snip20190707_20.png)
 
 上面是工具的两张截图！基本上的要点都说完了，其他的没有什么好说的！按照流程一步一步来就好了！
 
@@ -125,9 +125,9 @@ SophixManager.getInstance().queryAndLoadNewPatch();//查询是否有新的补丁
 
 > 吐槽一下，阿里的东西是实在太多了，找起来真的费劲！所以这里给大家贴张图片！
 
-![d8b1d60d581e740ca45d4a294073d059.png](evernotecid://15F9DE32-0B0C-4597-BAC2-265E889B9046/appyinxiangcom/25209387/ENResource/p17)
+![d8b1d60d581e740ca45d4a294073d059.png](https://github.com/AngleLong/ThermalDemo/tree/master/img/Snip20190707_18.png)
 
-![d7da538eb17267e4e657959255767bd7.png](evernotecid://15F9DE32-0B0C-4597-BAC2-265E889B9046/appyinxiangcom/25209387/ENResource/p18)
+![d7da538eb17267e4e657959255767bd7.png](https://github.com/AngleLong/ThermalDemo/tree/master/img/Snip20190707_19.png)
 
 然后进入到对应的项目页面设置相应的补丁！直接上传就好了，里面有一个二维码，可以下载应用。然后进行充分测试之后在进行发布！
 
